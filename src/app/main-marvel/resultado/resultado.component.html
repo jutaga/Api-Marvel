@@ -1,0 +1,9 @@
+
+  <div *ngFor="let marvel of comics" class="card">
+    <img [src]="marvel.thumbnail.path + '/portrait_xlarge.' + marvel.thumbnail.extension" [alt]="marvel.title">
+    <div class="card-body">
+      <h5 class="card-title">{{marvel.title}}</h5>
+      <p class="card-text"></p>
+      <a [href]="marvel.urls[0].url" class="btn btn-primary">Go Buy</a>
+    </div>
+  </div>

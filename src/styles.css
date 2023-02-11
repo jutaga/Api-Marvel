@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url(./assets/img/bg-marvel.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  max-width: 200px;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+
+}
+
+.card {
+  margin: 15px;
+}
